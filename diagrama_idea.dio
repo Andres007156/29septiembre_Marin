@@ -1,0 +1,89 @@
+<mxfile host="65bd71144e">
+    <diagram id="-7f27xlS26wy7bywL3E3" name="Page-1">
+        <mxGraphModel dx="714" dy="1751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="start" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="30" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;b&gt;CLIENTE&lt;/b&gt;&#xa;&#xa;Hace preguntas&#xa;Solicita citas&#xa;Consulta precios" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="160" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;b&gt;CANALES DEL CLIENTE&lt;/b&gt;&#xa;&#xa;WhatsApp&#xa;Chat Web&#xa;Redes Sociales" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="160" width="220" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;b&gt;RECEPCIONISTA IA&lt;/b&gt;&#xa;&#xa;Entiende mensajes&#xa;Responde preguntas&#xa;Proporciona precios&#xa;Reserva citas" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="140" width="220" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;b&gt;API BACKEND&lt;/b&gt;&#xa;&#xa;Autenticación&#xa;Lógica de negocio&#xa;Gestión de conversaciones&#xa;Gestión de citas" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="1120" y="140" width="220" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;b&gt;BASE DE DATOS&lt;/b&gt;&#xa;&#xa;Clientes&#xa;Citas&#xa;Servicios y precios&#xa;Conversaciones" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="1480" y="140" width="200" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;b&gt;DUEÑO DEL NEGOCIO&lt;/b&gt;&#xa;&#xa;Gestiona el negocio&#xa;Ve citas&#xa;Actualiza servicios&#xa;Revisa reportes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="520" width="220" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;b&gt;PANEL DE CONTROL&lt;/b&gt;&#xa;&#xa;Citas&#xa;Clientes&#xa;Servicios&#xa;Reportes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="520" width="220" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;b&gt;SISTEMA DE CITAS&lt;/b&gt;&#xa;&#xa;Disponibilidad&#xa;Reservas&#xa;Reagendamiento&#xa;Cancelación" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="520" width="220" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;b&gt;SERVICIO DE NOTIFICACIONES&lt;/b&gt;&#xa;&#xa;Confirmaciones&#xa;Recordatorios de citas&#xa;Mensajes de seguimiento" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="1140" y="520" width="250" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="end" value="FIN" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1530" y="565" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_start" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;labelBackgroundColor=#ffffff;" parent="1" source="start" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Mensaje" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;labelBackgroundColor=#ffffff;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Solicitud del Cliente" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;labelBackgroundColor=#ffffff;" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Petición API" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;labelBackgroundColor=#ffffff;" parent="1" source="4" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Lectura / Escritura" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;labelBackgroundColor=#ffffff;" parent="1" source="5" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Gestionar Negocio" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;labelBackgroundColor=#ffffff;" parent="1" source="7" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Datos de Citas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;labelBackgroundColor=#ffffff;" parent="1" source="8" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Disparador de Recordatorio" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;labelBackgroundColor=#ffffff;" parent="1" source="9" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Gestionar Citas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;labelBackgroundColor=#ffffff;" parent="1" source="5" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1230" y="390"/>
+                            <mxPoint x="870" y="390"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="HTTPS / API" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;labelBackgroundColor=#ffffff;" parent="1" source="8" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="510" y="440"/>
+                            <mxPoint x="1230" y="440"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e_end" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;labelBackgroundColor=#ffffff;" parent="1" source="10" target="end" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Cloud optimizer diagram" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="-10" width="260" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
